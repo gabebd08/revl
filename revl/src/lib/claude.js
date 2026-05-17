@@ -1,4 +1,4 @@
-const CLAUDE_API = 'https://api.anthropic.com/v1/messages'
+const CLAUDE_API = '/api/claude'
 
 export async function callClaude(messages, system = '') {
   const res = await fetch(CLAUDE_API, {
